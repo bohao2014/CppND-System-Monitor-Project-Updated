@@ -20,12 +20,12 @@ const std::string kPasswordPath{"/etc/passwd"};
 
 // System
 float MemoryUtilization();
-long UpTime();
-std::vector<int> Pids();
-int TotalProcesses();
-int RunningProcesses();
-std::string OperatingSystem();
-std::string Kernel();
+long UpTime();				//done
+std::vector<int> Pids();	
+int TotalProcesses();		//done
+int RunningProcesses();		//done
+std::string OperatingSystem();	//done
+std::string Kernel();			//done
 
 // CPU
 enum CPUStates {
