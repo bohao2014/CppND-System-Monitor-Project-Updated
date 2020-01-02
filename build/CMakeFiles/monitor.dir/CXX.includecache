@@ -6,19 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../include/format.h
-string
+../include/linux_parser.h
+fstream
 -
-
-../include/ncurses_display.h
-curses.h
+regex
 -
-process.h
-../include/process.h
-system.h
-../include/system.h
-
-../include/process.h
 string
 -
 
@@ -28,31 +20,11 @@ fstream
 string
 -
 
-../include/system.h
-string
--
-vector
--
-process.h
-../include/process.h
+/home/workspace/CppND-System-Monitor/src/processor.cpp
 processor.h
-../include/processor.h
-
-/home/workspace/CppND-System-Monitor/src/ncurses_display.cpp
-curses.h
+/home/workspace/CppND-System-Monitor/src/processor.h
+linux_parser.h
+/home/workspace/CppND-System-Monitor/src/linux_parser.h
+iostream
 -
-chrono
--
-string
--
-thread
--
-vector
--
-format.h
-/home/workspace/CppND-System-Monitor/src/format.h
-ncurses_display.h
-/home/workspace/CppND-System-Monitor/src/ncurses_display.h
-system.h
-/home/workspace/CppND-System-Monitor/src/system.h
 
